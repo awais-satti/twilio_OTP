@@ -6,7 +6,7 @@ const channel = 'sms';
 //send code to phone
 router.get('/',async(req,res)=>{
     try{
-        const result = await client.verify.services("VA524b46029d4ba85b7366f88bbe8bbdd0").verifications.create({
+        const result = await client.verify.services(SERVICE_ID).verifications.create({
             to:num,
             channel:channel
         })

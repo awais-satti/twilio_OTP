@@ -4,8 +4,6 @@ const loginRoutes = require('./Routes/login')
 const verifyRoutes = require('./Routes/verify')
 
 const app = require('express')();
-
-
 // const accountSID = process.env.TWILIO_SERVICE_ID;
 // const authToken = process.env.TWILIO_AUTH_TOKEN;
 

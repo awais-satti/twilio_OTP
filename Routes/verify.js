@@ -6,7 +6,7 @@ const code = "041956";
 //verify code
 router.get('/',async(req,res)=>{
     try{
-        const result = await client.verify.services("VA524b46029d4ba85b7366f88bbe8bbdd0").verificationChecks.create({
+        const result = await client.verify.services(SERVICE_ID).verificationChecks.create({
             to:num,
             code:code
         })
