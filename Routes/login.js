@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const client = require('../config/twilio')
-const num = "+923475313847";
+const num = "+92*********";
 const channel = 'sms';
 
 //send code to phone
